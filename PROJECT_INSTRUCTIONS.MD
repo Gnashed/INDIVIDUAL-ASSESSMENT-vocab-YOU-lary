@@ -63,7 +63,7 @@ Create issue tickets from the items below to help you get started.
   - [ ] Language/Tech
   - [ ] Time submitted - Not on form. Handle in your JS
   - [ ] user ID - Not on form. Pull from User object.
-- [ ] READ THIER entries
+- [ ] READ THEIR entries
 - [ ] UPDATE THEIR entries
 - [ ] DELETE THEIR entries
 - [ ] Filter by language/tech
@@ -77,7 +77,7 @@ Create issue tickets from the items below to help you get started.
 ## Stretch 2
 [Stretch 2 Wireframe](https://www.figma.com/file/UC3Gi8HFRkZY8OIMOAUgL4/Stretch-2)
 - [ ] Users can search vocabulary entries
-- [ ] Users can add Language/Tech to the database and refrerence it on their vocabulary entries
+- [ ] Users can add Language/Tech to the database and reference it on their vocabulary entries
 - [ ] Users can only see the Languages/Tech categories that they created
 
 ## Stretch 3
