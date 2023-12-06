@@ -2,19 +2,12 @@
 import ViewDirectorBasedOnUserAuthStatus from '../utils/viewDirector';
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
+import domBuilder from '../components/shared/domBuilder';
+import navBar from '../components/shared/navBar';
 
 const init = () => {
-  document.querySelector('#app').innerHTML = `
-    <h1>HELLO! You are up and running!</h1>
-    <small>Open your dev tools</small><br />
-    <button class="btn btn-danger" id="click-me">Click ME!</button><br />
-  `;
-  console.warn('YOU ARE UP AND RUNNING!');
-
-  document
-    .querySelector('#click-me')
-    .addEventListener('click', () => console.warn('You clicked that button!'));
-
+  domBuilder();
+  navBar();
   // USE WITH FIREBASE AUTH
   ViewDirectorBasedOnUserAuthStatus();
 };
