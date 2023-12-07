@@ -2,12 +2,12 @@
 import ViewDirectorBasedOnUserAuthStatus from '../utils/viewDirector';
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
-import domBuilder from '../components/shared/domBuilder';
-import navBar from '../components/shared/navBar';
+// import domBuilder from '../components/shared/domBuilder';
+// import navBar from '../components/shared/navBar';
 
 const init = () => {
-  domBuilder(); // Run this first.
-  navBar();
+  // domBuilder(); // Run this first.
+  // navBar();
   // USE WITH FIREBASE AUTH
   ViewDirectorBasedOnUserAuthStatus();
 };
