@@ -6,7 +6,7 @@ import domBuilder from '../components/shared/domBuilder';
 import navBar from '../components/shared/navBar';
 
 const init = () => {
-  domBuilder();
+  domBuilder(); // Run this first.
   navBar();
   // USE WITH FIREBASE AUTH
   ViewDirectorBasedOnUserAuthStatus();
