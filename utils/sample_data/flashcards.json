@@ -1,0 +1,44 @@
+{
+  "-MiBsfuTafbEQ7eAULxV": {
+  "firebaseKey": "-MiBsfuTafbEQ7eAULxV",
+  "title": "What does HTML stand for?",
+  "answer": "Hyper Text Markup Language",
+  "filter": "html",
+  "uid": ""
+},
+  "-MiBt86VzkC-EGmJnxjm": {
+    "firebaseKey": "-MiBt86VzkC-EGmJnxjm",
+    "title": "What is an .env file?",
+    "answer": "It's a file that store credentials in key-value pairs for services used by your web app.",
+    "filter": "general/tech",
+    "uid": ""
+  },
+  "-MiBtwf1BwN9pGavQeR3": {
+    "firebaseKey": "-MiBtwf1BwN9pGavQeR3",
+    "title": "What year was JavaScript invented?",
+    "answer": "JavaScript was invented by Brendan Eich in 1995",
+    "filter": "javascript",
+    "uid": ""
+  },
+  "-MiBuOfHv9NCKB_cneij": {
+    "firebaseKey": "-MiBuOfHv9NCKB_cneij",
+    "title": "What's a callback function?",
+    "answer": "A function that is being passed as an argument in another function.",
+    "filter": "general/tech",
+    "uid": ""
+  },
+  "-MiBulenBnY8by9Xn7q1": {
+    "firebaseKey": "-MiBulenBnY8by9Xn7q1",
+    "title": "What does API stand for?",
+    "answer": "Application Programming Interface",
+    "filter": "general/tech",
+    "uid": ""
+  },
+  "-MiBv9_aOEJQWoobjz_U": {
+    "firebaseKey": "-MiBv9_aOEJQWoobjz_U",
+    "title": "What is Webpack?",
+    "answer": "Webpack is a module bundler that bundles JavaScript files for usage in a browser. It also handles other file types by using what is called 'loaders', which allows you to import files directly to your JS module.",
+    "filter": "general/tech",
+    "uid": ""
+  }
+}
