@@ -6,8 +6,6 @@ import '../styles/main.scss';
 // import navBar from '../components/shared/navBar';
 
 const init = () => {
-  // domBuilder(); // Run this first.
-  // navBar();
   // USE WITH FIREBASE AUTH
   ViewDirectorBasedOnUserAuthStatus();
 };
