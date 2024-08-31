@@ -1,7 +1,7 @@
 {
-  "name": "webpack-5.0-template",
+  "name": "vocab-you-lary",
   "version": "1.0.0",
-  "description": "",
+  "description": "Individual assessment that demonstrates my knowledge of DOM manipulation, CRUD operations on the client and Firebase Realtime Database, working with and writing my own RESTful APIs, and creating a multi-user experience where users can work with their own data.",
   "main": "public/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tion Blackmon",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.2.0",
