@@ -4,6 +4,8 @@ import formEvents from '../events/formEvents';
 import navBar from '../components/shared/navBar';
 // import logoutButton from '../components/logoutButton';
 import navigationEvents from '../events/navigationEvents';
+import getVocabularyCards from '../api/cardData';
+import { showVocabularyCards } from '../pages/vocabularyCards';
 
 // We want to make sure the following events gets access to the UID when CRUDing.
 const startApp = (user) => {
@@ -15,7 +17,7 @@ const startApp = (user) => {
   navigationEvents(user); // ATTACH THE EVENT LISTENERS TO THE NAVBAR
 
   // Put all flashcards on the DOM on App load
-  // getVocabCards(user.uid).then((cards) => showVocabCards(books));
+  getVocabularyCards(user.uid).then((cards) => showVocabularyCards(cards));
 };
 
 export default startApp;
