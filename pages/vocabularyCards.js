@@ -19,6 +19,7 @@ const showVocabularyCards = (array) => {
         <div class="card-body" style="height: 180px;">
           <h5 class="card-title">${item.title}</h5>
           <hr>
+          <p>${item.definition}</p>
           <i class="btn btn-success fas fa-eye" id="view-book-btn--${item.firebaseKey}">View</i>
           <i id="edit-book-btn--${item.firebaseKey}" class="fas fa-edit btn btn-info">Edit</i>
           <i id="delete-book-btn--${item.firebaseKey}" class="btn btn-danger fas fa-trash-alt">Delete</i>

@@ -1,4 +1,5 @@
-import getVocabularyCards from '../api/cardData';
+import { getVocabularyCards } from '../api/cardData';
+import addAVocabCard from '../components/forms/addAVocabCard';
 import { showVocabularyCards } from '../pages/vocabularyCards';
 import { signOut } from '../utils/auth';
 
@@ -10,6 +11,9 @@ const navigationEvents = (user) => {
 
   document.querySelector('.navbar-brand').addEventListener('click', () => {
     getVocabularyCards(user.uid).then((cards) => showVocabularyCards(cards));
+  });
+  document.querySelector('#create-vocab-card-btn').addEventListener('click', () => {
+    addAVocabCard();
   });
 };
 

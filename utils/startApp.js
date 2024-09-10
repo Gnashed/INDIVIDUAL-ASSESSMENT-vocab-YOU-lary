@@ -4,7 +4,7 @@ import formEvents from '../events/formEvents';
 import navBar from '../components/shared/navBar';
 // import logoutButton from '../components/logoutButton';
 import navigationEvents from '../events/navigationEvents';
-import getVocabularyCards from '../api/cardData';
+import { getVocabularyCards } from '../api/cardData';
 import { showVocabularyCards } from '../pages/vocabularyCards';
 
 // We want to make sure the following events gets access to the UID when CRUDing.
